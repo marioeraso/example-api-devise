@@ -48,6 +48,10 @@ gem 'devise_token_auth', '>= 1.2.0', git: "https://github.com/lynndylanhurley/de
 
 gem 'rack-cors'
 
+gem 'activeadmin'
+
+gem 'sass-rails'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
