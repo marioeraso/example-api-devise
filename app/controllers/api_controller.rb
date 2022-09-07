@@ -1,6 +1,7 @@
 class ApiController < ActionController::Base
   include DeviseTokenAuth::Concerns::SetUserByToken
   before_action :configure_permitted_parameters, if: :devise_controller?
+  skip_before_action :verify_authenticity_token
   before_action :authenticate_user!, except: [:all_products]
 	respond_to :json
 

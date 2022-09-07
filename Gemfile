@@ -52,6 +52,8 @@ gem 'activeadmin'
 
 gem 'sass-rails'
 
+gem 'cancancan'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
